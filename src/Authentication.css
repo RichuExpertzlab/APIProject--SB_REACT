@@ -1,0 +1,60 @@
+/* Styles for the authentication container */
+.authentication {
+  border: 2px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.authentication h2 {
+  margin-bottom: 30px;
+}
+
+/* Styles for the authentication method container */
+.authentication-method-container {
+  border: 2px solid #c01e1e;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.authentication-method {
+  margin-bottom: 30px;
+}
+
+.authentication-method label {
+  margin-right: 30px;
+}
+
+.basic-auth-config,
+.oauth2-config {
+  margin-top: 20px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.input-group input[type="password"] {
+  font-family: monospace; /* Use monospace font for password fields */
+}
+
+/* Customize styles for select dropdown */
+.authentication-method select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
